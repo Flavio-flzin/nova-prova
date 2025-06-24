@@ -26,3 +26,7 @@ function verificarResposta4(correta) {
       alert("❌ Essa não é a resposta certa. Tente de novo!");
     }
 }
+ function alternarTexto() {
+      const texto = document.getElementById('texto');
+      texto.style.display = (texto.style.display === 'none' || texto.style.display === 'none') ? 'block' : 'none';
+ }

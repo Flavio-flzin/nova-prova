@@ -21,15 +21,21 @@ header {
       height: 200px;
       border-radius: 50%;
       overflow: hidden;
-      border: none;
-      padding: 0;
       cursor: pointer;
-      box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-      object-fit: cover;
       display: flex;
       align-items: center; 
       justify-content: center;
+      background-size: cover;
+      background: none;
 }
+#texto{
+      display: none;
+      margin-top: 8px;
+      font-size: 16px;
+      color: #000000;
+      align-items: end;
+      text-align: center;
+    }
 
 nav ul li {
   display: inline;                
